@@ -1,0 +1,122 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background-color: #ff914d;
+}
+    
+header { background: #ff914d; color: white; text-align: center; padding: 40px;}
+    
+nav { background: #333; 
+    padding: 10px;
+    text-align: center; 
+    font-style: italic; 
+    font-size: 15px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+ a { 
+  color: white; 
+  margin: 0 15px; 
+  text-decoration: none; 
+}
+    
+a:hover { 
+  text-decoration: underline; 
+  transition: .7s; 
+}
+   
+section { 
+  padding: 20px; 
+}
+   
+footer { 
+  background: #222; 
+   color: white; 
+   text-align: center; 
+  padding: 10px; 
+   margin-top: 20px; 
+}
+
+.recipe {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+.recipe img {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: 5px 20px 10px 5px;
+  border-radius: 8px;
+}
+
+.recipe h2 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.recipe ul {
+  line-height: 1.6;
+  color: #444;
+}
+
+.recipe-list {
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 15px;
+  background: #f8f8f8;   
+  border: 3px solid #ddd;
+  border-radius: 6px;
+  list-style-position: inside;
+}
+
+.recipe-list a {
+  color: #333;           
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recipe-list a:hover {
+  color: #ff914d;        
+  text-decoration: underline;
+}
+
+nav {
+    background: #333; 
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #fff; 
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a:hover {
+    color: #ff914d; 
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+footer { 
+  background: #222; 
+  color: white; 
+  text-align: center; 
+  padding: 10px; 
+  margin-top: 20px; 
+  clear: both;
+  border: 2px solid black;
+  border-radius: 10px 10px 0px 0px;
+
+}
